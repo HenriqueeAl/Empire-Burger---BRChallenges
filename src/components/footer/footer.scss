@@ -1,0 +1,59 @@
+footer{
+    height: 92px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    h1{
+        font-size: 29.4032px;
+        color: #F59A1B;
+    }
+
+    nav{
+        margin-left: 300px;
+        ul{
+            list-style: none;
+            display: flex;
+            margin-right: 140px;
+            li{
+                padding: 20px;
+                a{
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: #3A210B;
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+                .home{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    img{
+        margin: 10px;
+    }
+
+    .direitos{
+        width: 100%;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid rgba(29, 6, 5, 0.15);
+        strong{
+            font-weight: 700;
+            color: rgba(2, 14, 31, 0.69);
+        }
+        p{
+            font-size: 14px;
+            color: rgba(2, 14, 31, 0.3);
+        }
+    }
+   
+}

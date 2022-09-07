@@ -1,0 +1,179 @@
+.promocao{
+    
+    margin-top: 20px;
+    .container{
+        padding-top: 50px;
+        h1{
+            color: rgba(29, 6, 5, 0.9);
+            font-family: 'Lilita One';
+            font-weight: 400;
+            font-size: 32px;
+        }
+        p{
+            color: rgba(29, 6, 5, 0.69);
+            font-size: 16px;
+        }
+
+        .ofertas{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 770px 30px 371px;
+            grid-template-rows: 200px 30px 200px;
+            .oferta-burger{
+                width: 770px;
+                height: 430px;
+                background-image: url(public/oferta-burger.svg);
+                background-repeat: no-repeat;
+                grid-column-start: 1;
+                h1{
+                    font-size: 25px;
+                    font-family: 'Lilita One';
+                    text-transform: uppercase;
+                    color: rgba(255, 255, 255, 0.9);
+                    margin-top: 12px;
+                    margin-left: 17px;
+                }
+                p{
+                    color: rgba(255, 255, 255, 0.69);
+                    font-size: 18px;
+                    margin-left: 17px;
+                }
+
+                h2{
+                    margin-top: 280px;
+                    margin-left: 650px;
+                    font-size: 23px;
+                    color: rgba(255, 255, 255, 0.69);
+                }
+
+                strong{
+                    font-family: 'Lilita One';
+                    font-size: 42px;
+                    margin-left: 650px;
+                    text-transform: uppercase;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+            }
+            .oferta-batata{
+                width: 370.96px;
+                height: 200px;
+                background-image: url(public/oferta-batata.svg);
+                background-repeat: no-repeat;
+                margin-bottom: 30px;
+                grid-column-start: 3;
+                grid-row-start: 1;
+
+                h1{
+                    font-size: 20px;
+                    font-family: 'Lilita One';
+                    text-transform: uppercase;
+                    color: rgba(29, 6, 5, 0.9);
+                    margin-top: 12px;
+                    margin-left: 17px;
+                }
+                p{
+                    color: rgba(29, 6, 5, 0.69);
+                    font-size: 18px;
+                    margin-left: 17px;
+                }
+            }
+            .oferta-sorvete{
+                width: 370.96px;
+                height: 200px;
+                background-image: url(public/oferta-sorvete.svg);
+                background-repeat: no-repeat;
+                grid-column-start: 3;
+                grid-row-start: 3;
+
+                h1{
+                    font-size: 20px;
+                    font-family: 'Lilita One';
+                    text-transform: uppercase;
+                    color: rgba(29, 6, 5, 0.9);
+                    margin-top: 12px;
+                    margin-left: 17px;
+                }
+                p{
+                    color: rgba(29, 6, 5, 0.69);
+                    font-size: 18px;
+                    margin-left: 17px;
+                }
+            }
+        }
+
+        .row{
+            height: 130.93px;
+            margin-top: 64px;
+            .fechado{
+                background-color: #F43127;
+            }
+            .aberto{
+                background-color: #1ae127;
+            }
+            .horario{
+                width: 570px;
+                height: 130.93px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+    
+                .icon{
+                    width: 94.83px;
+                    height: 94.83px;
+                    background: rgba(29, 6, 5, 0.2);
+                    border-radius: 50px;
+                    margin-left: 22px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+    
+                .text{
+                    border-left: 1px solid rgba(29, 6, 5, 0.4);
+                    height: 82.74px;
+                    margin-left: 15px;
+                    h2{
+                        font-family: 'Lilita One';
+                        font-size: 25px;
+                        color: rgba(29, 6, 5, 0.69);
+                        text-transform: uppercase;
+                        margin-left: 15px;
+                        line-height: 35px;
+                        display: flex;
+                        strong{
+                            font-family: 'Lilita One';
+                            font-size: 12px;
+                            margin-left: 5px;
+                        }
+                    }
+                    p{
+                        font-weight: 900;
+                        font-size: 16px;
+                        color: rgba(255, 255, 255, 0.85);
+                        margin-left: 15px;
+                        line-height: 20px;
+                    }
+                }
+    
+            }
+            .insta{
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: rgba(29, 6, 5, 0.69);
+                }
+                h3{
+                    font-family: 'Lilita One';
+                    font-weight: 400;
+                    font-size: 28.0202px;
+                    color: #F43127;
+                }
+            }
+        }
+    }
+}

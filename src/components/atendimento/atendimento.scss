@@ -1,0 +1,63 @@
+.atendimento{
+    border-bottom: 1px solid rgba(29, 6, 5, 0.15);
+    .content{
+        margin-top: 220px;
+        margin-bottom: 128px;
+        display: flex;
+
+        .img{
+            background: rgba(250, 226, 203, 0.9);
+            width: 570px;
+            height: 310px;
+            border-radius: 35px 154.077px 154.077px 35px;
+            display: flex;
+            align-items: flex-end;
+
+            img{
+                width: 410px;
+                height: 426px;
+                margin-left: 41px;
+            }
+        }
+
+        .text{
+            margin-top: 25px;
+            margin-left: 33px;
+            h1{
+                font-size: 41.7228px;
+                font-family: 'Lilita One';
+                color: rgba(29, 6, 5, 0.9);
+                text-transform: uppercase;
+                .bg-text{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: -10px;
+                    background-color: rgba(245, 154, 27, 1);
+                    border-radius: 8px;
+                    width: 340px;
+                    height: 46px;
+                }
+            }
+
+            p{
+                margin-top: 9px;
+                max-width: 482.42px;
+                font-size: 20.8614px;
+                color: rgba(29, 6, 5, 0.69);
+            }
+
+            button{
+                margin-top: 21px;
+                width: 230.72px;
+                height: 53.86px;
+                background: #F43127;
+                border-radius: 5.21535px;
+                font-weight: 700;
+                font-size: 23.4691px;
+                color: #FFFFFF;
+                border: none;
+            }
+        }
+    }
+}
