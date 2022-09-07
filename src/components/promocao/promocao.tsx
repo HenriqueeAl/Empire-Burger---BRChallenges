@@ -26,8 +26,6 @@ export const Promocao = ()=>{
             }
         }
     })
-    console.log(estado)
-
     return(
         <section className="promocao" id='promocao'>
             <div className='container'>

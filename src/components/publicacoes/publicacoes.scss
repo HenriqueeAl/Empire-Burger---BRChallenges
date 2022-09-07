@@ -17,14 +17,29 @@
     .publicacoes-bg{
         width: 100%;
         height: 218px;
-        background-color: aqua;
+        background-image: url(banner-publicacoes.png);
+        background-position: center;
         margin-top: 16px;
+        display: flex;
+        flex-direction: row-reverse;
+        .gradiente-left{
+            width: 100%;
+            height: 218px;
+            background: linear-gradient(270.22deg, #21201B 1.41%, rgba(33, 32, 27, 0) 30.38%);
+        }
+        .gradiente-rigth{
+            width: 100%;
+            height: 218px;
+            background: linear-gradient(270.22deg, #21201B 1.41%, rgba(33, 32, 27, 0) 30.38%);
+            transform: rotate(-180deg);
+        }
     }
 
     .text-bg{
+        margin-top: -1px;
         width: 100%;
         height: 50px;
-        background: #F59A1B;
+        background-image: url(text-bg.png);
     }
 
 

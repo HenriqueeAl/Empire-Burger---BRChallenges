@@ -10,7 +10,7 @@ export const Contato = ()=>{
                 <h1>Nossas entregas</h1>
                 <div className='box'>
                     <div className='icon'>
-
+                        <img src='wpp.svg'></img>
                     </div>
                     <div className='text'>
                         <h2>Whatsapp</h2>
@@ -19,7 +19,7 @@ export const Contato = ()=>{
                 </div>
                 <div className='box'>
                     <div className='icon'>
-
+                    <img src='entrega.svg'></img>
                     </div>
                     <div className='text'>
                         <h2>Entrega</h2>
@@ -28,7 +28,7 @@ export const Contato = ()=>{
                 </div>
                 <div className='box'>
                     <div className='icon'>
-
+                        <img src='sorvete.svg'></img>
                     </div>
                     <div className='text'>
                         <h2>Sobremesa</h2>
@@ -37,7 +37,7 @@ export const Contato = ()=>{
                 </div>
                 <div className='box'>
                     <div className='icon'>
-
+                        <img src='ifood-contatos.svg'></img>
                     </div>
                     <div className='text'>
                         <h2>iFood</h2>
@@ -47,7 +47,7 @@ export const Contato = ()=>{
             </div>
             <div className='pedir'>
                 <div className='icon'>
-
+                    <img src='celular.svg'></img>
                 </div>
                 <div className='text'>
                     <h1>faça o seu pedido agora mesmo!</h1>

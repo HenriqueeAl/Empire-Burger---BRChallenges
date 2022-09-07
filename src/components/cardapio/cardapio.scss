@@ -1,108 +1,124 @@
 .cardapio{
     width: 100%;
     height: 65vh;
-    max-height: 700px;
+    max-height: 650px;
+    min-height: 600px;
     display: flex;
     margin-top: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    .container{
+        width: 1200px;
+        height: 590px;
+        position: absolute;
+        display: flex;
+    }
     .bg-img{
-        background-image: url(public/cardapio.svg);
-        background-size: cover;
+        background-image: url(public/cardapio.png);
         background-position: center;
+        background-size: 101% 101%;
+        background-repeat: no-repeat;
         width: 50%;
         height: 100%;
-
-        .titulo{
-            max-width: 640px;
-            max-height: 92px;
-            margin-top: 14%;
-            margin-left: 40%;
-            display: flex;
-            
-            h1{
-                font-family: 'Lilita One';
-                font-size: 41.4213px;
-                color: #3B200B;
-                display: inline-block;
-                text-transform: uppercase;
-            }
-    
-            .bg-text{
-                background-color: rgba(245, 154, 27, 1);
-                border-radius: 8px;
-                padding-left: 6px;
-            }
-        }
-
-        p{
-            max-width: 438px;
-            margin-top: 1%;
-            margin-left: 40%;
-            font-size: 16px;
-            color: rgba(29, 6, 5, 0.69);
-        }
-
-        button{
-            width: 209.72px;
-            height: 43.86px;
-            margin-top: 1%;
-            margin-left: 40%;
-            background: #F43127;
-            border-radius: 5.21535px;
-            border: none;
-            font-weight: 500;
-            font-size: 16px;
-            color: #FFFFFF;
-        }
 
     }
     .bg-bg{
         background: #3B200B;
         width: 50%;
         height: 100%;
-        >h1{
-            font-family: 'Lilita One';
-            font-size: 32px;
-            color: #F59A1B;
-            margin-top: 72px;
-            margin-left: 31px;
-            margin-bottom: 16px;
-        }
     }
 }
 
-.list-cardapio{
-    margin-left: 31px;
-    margin-bottom: 32px;
-    .titulo-cardapio{
+
+
+.w50{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    .titulo{
+        max-width: 640px;
+        max-height: 92px;
+        margin-top: 20%;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 500px;
-        white-space: nowrap;
+        
         h1{
-            
-            font-family: Lilita One;
-            font-size: 20px;
-            color: #FAE4D0;
+            font-family: 'Lilita One';
+            font-size: 41.4213px;
+            color: #3B200B;
+            display: inline-block;
+            text-transform: uppercase;
         }
-        .border{
-            width: 500px;
-            margin-top: 11px;
-            margin-left: 6px;
-            margin-right: 9px;
-            border-bottom: dotted 3px white;
-            border-radius: 3px;
-        }
-        p{
-            font-family: Lilita One;
-            font-size: 20px;
-            color: #FAE4D0;
+
+        .bg-text{
+            background-color: rgba(245, 154, 27, 1);
+            border-radius: 8px;
+            padding-left: 6px;
         }
     }
-    > p{
-        width: 480px;
+
+    p{
+        max-width: 438px;
+        margin-top: 1%;
         font-size: 16px;
-        color: rgba(255, 255, 255, 0.9);
-        margin-top: 4px;
+        color: rgba(29, 6, 5, 0.69);
+    }
+
+    button{
+        width: 209.72px;
+        height: 43.86px;
+        margin-top: 1%;
+        background: #F43127;
+        border-radius: 5.21535px;
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    >h1{
+        font-family: 'Lilita One';
+        font-size: 32px;
+        color: #F59A1B;
+        margin-top: 72px;
+        margin-left: 31px;
+        margin-bottom: 16px;
+    }
+    .list-cardapio{
+        margin-left: 31px;
+        margin-bottom: 32px;
+        .titulo-cardapio{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 500px;
+            white-space: nowrap;
+            h1{
+                
+                font-family: Lilita One;
+                font-size: 20px;
+                color: #FAE4D0;
+            }
+            .border{
+                width: 500px;
+                margin-top: 11px;
+                margin-left: 6px;
+                margin-right: 9px;
+                border-bottom: dotted 3px white;
+            }
+            p{
+                font-family: Lilita One;
+                font-size: 20px;
+                color: #FAE4D0;
+                margin-left: 0;
+            }
+        }
+        > p{
+            width: 480px;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-top: 4px;
+            margin-left: 0;
+        }
     }
 }

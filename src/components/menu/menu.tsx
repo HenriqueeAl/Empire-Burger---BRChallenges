@@ -5,10 +5,9 @@ export const Menu = ()=>{
         <section className="menu">
             <div className='container'>
                 <div className='flex titulo'>
-                    <img src='coroa.png'></img>
-                    <h1>Empire burger</h1>
+                    <img src='logo.png'></img>
                 </div>
-                <nav>
+                <nav className='desktop'>
                     <ul>
                         <li><a className='home' href='#home'>Home</a></li>
                         <li><a href='#promocao'>Promoçâo</a></li>
@@ -25,6 +24,9 @@ export const Menu = ()=>{
                         <img src='wpp.png'></img>
                         <p>Contato</p>
                     </button>
+                </div>
+                <div className='mobile'>
+                    <img src='menu.svg'></img>
                 </div>
             </div>
         </section>

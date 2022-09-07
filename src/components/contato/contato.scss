@@ -44,6 +44,9 @@
                 background: #FAE2CB;
                 border-radius: 30px;
                 margin-right: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             .text{
@@ -84,6 +87,9 @@
             border-radius: 50px;
             margin-left: 22px;
             margin-right: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .text{

@@ -2,19 +2,18 @@ footer{
     height: 92px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    
-    img{
-        width: 30px;
-        height: 30px;
-    }
-    h1{
-        font-size: 29.4032px;
-        color: #F59A1B;
+
+    .logo{
+            img{
+            width: 222.71px;
+            height: 36.19px;
+        }
     }
 
     nav{
-        margin-left: 300px;
+        margin-left: 310px;
         ul{
             list-style: none;
             display: flex;
@@ -35,8 +34,12 @@ footer{
         }
     }
 
-    img{
-        margin: 10px;
+    .redes{
+        img{
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+        }
     }
 
     .direitos{

@@ -1,6 +1,7 @@
 .comentarios{
     margin-top: 128px;
     
+    
     h1{
         font-size: 32px;
         font-family: 'Lilita One';
@@ -11,21 +12,32 @@
         color: rgba(29, 6, 5, 0.69);
     }
 
+    .gradiente{
+        width: 120px;
+        height: 189px;
+        position: relative;
+        left: 1200px;
+        background: linear-gradient(271.8deg, #FAF3F2 70.26%, rgba(250, 243, 242, 0) 105.97%);
+        margin-top: -189px;
+    }
+
     .row{
         flex-wrap: nowrap;
         overflow: hidden;
-        flex-wrap: nowrap;
-
+        
+        width: 110%;
+        padding-right: 9.5%;
+        
         .box{
             min-width: 30%;
-            height: 177.83px;
+            height: 178.83px;
             box-shadow: 0px 4px 25px rgba(60, 35, 13, 0.1);
+            background: white;
             border-radius: 10px;
             padding: 12px;
             margin-top: 16px;
             margin-right: 12px;
-            opacity: 0.5;
-            
+            opacity: 0.7;      
     
             p{
                 display: -webkit-box;
@@ -36,7 +48,7 @@
                 line-height: 22px;
             }
     
-            .row{
+            .flex{
                 margin-top: 13px;
                 align-items: center;
                 .perfil-img{
@@ -61,7 +73,30 @@
     
         .box:hover{
             opacity: 1;
-            scale: 1.01;
+            scale: 1.02;
         }
+    }
+
+    .carousel{
+        width: 500px;
+        height: 8px;
+        margin: auto;
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        :hover{
+            scale: 1.05;
+        }
+
+        .bar{
+            width: 50px;
+            height: 4px;
+            background-color: white;
+            margin-left: 4px;
+        }
+        .select{
+            background: #FFAD0D;
+        }
+        
     }
 }
