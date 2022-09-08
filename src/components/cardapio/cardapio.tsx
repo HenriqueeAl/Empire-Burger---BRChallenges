@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import './cardapio.scss'
 
-const List = ( props: any )=>{
+
+
+const List = ( props :any)=>{
     return(
         <div className='list-cardapio'>
             <div className='titulo-cardapio'>
@@ -36,7 +38,7 @@ export const Cardapio = ()=>{
             <div className='bg-bg'>
             </div>
             <div className='container'>
-                <div className='w50'>
+                <div className='w50 content-left'>
                     <div className='titulo'>
                             <h1>Escolha o seu combo imperial,<h1 className='bg-text'>peça agora!</h1></h1>
                     </div>
@@ -45,7 +47,7 @@ export const Cardapio = ()=>{
                 </div>
                 <div className='w50'>
                     <h1>Cardápio imperial | Burger</h1>
-                    {cardapio.map((e) => <List name={e.plate} price={e.price} ingredientes={e.ingredients}/>)
+                    {cardapio.map((e: any) => <List name={e.plate} price={e.price} ingredientes={e.ingredients}/>)
                     }
                 </div>
             </div>

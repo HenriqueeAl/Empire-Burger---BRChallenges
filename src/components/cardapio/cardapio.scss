@@ -7,40 +7,67 @@
     margin-top: 64px;
     flex-wrap: wrap;
     justify-content: center;
+    @media screen and (max-width:880px){
+            
+            
+    }
     .container{
         width: 1200px;
         height: 590px;
         position: absolute;
         display: flex;
+        @media screen and (max-width:880px){
+            flex-direction: column; 
+        }
     }
     .bg-img{
-        background-image: url(public/cardapio.png);
+        background-image: url(/cardapio.png);
         background-position: center;
         background-size: 101% 101%;
         background-repeat: no-repeat;
         width: 50%;
         height: 100%;
+        @media screen and (max-width:880px){
+            width: 100%;
+            height: 240px;
+            background-image: url(/cardapio-mobile.png);
+        }
 
     }
     .bg-bg{
         background: #3B200B;
         width: 50%;
         height: 100%;
+        @media screen and (max-width:880px){
+            width: 100%;
+            height: 500px; 
+        }
     }
 }
 
-
+.content-left{
+    @media screen and (max-width:1900px){
+        margin-left: 2%;
+        
+    }
+}
 
 .w50{
     display: flex;
     flex-direction: column;
     width: 50%;
+    @media screen and (max-width:880px){
+        width: 100%;  
+    }
     
     .titulo{
         max-width: 640px;
         max-height: 92px;
         margin-top: 20%;
         display: flex;
+        @media screen and (max-width:880px){
+            margin-top: 7%; 
+        }
         
         h1{
             font-family: 'Lilita One';
@@ -48,6 +75,10 @@
             color: #3B200B;
             display: inline-block;
             text-transform: uppercase;
+            @media screen and (max-width:880px){
+                font-size: 25px;
+                max-width: 80%;
+            }
         }
 
         .bg-text{
@@ -62,6 +93,10 @@
         margin-top: 1%;
         font-size: 16px;
         color: rgba(29, 6, 5, 0.69);
+        @media screen and (max-width:880px){
+            font-size: 14px;
+            max-width: 85%;
+        }
     }
 
     button{
@@ -74,6 +109,7 @@
         font-weight: 500;
         font-size: 16px;
         color: #FFFFFF;
+        
     }
 
     >h1{
@@ -83,16 +119,26 @@
         margin-top: 72px;
         margin-left: 31px;
         margin-bottom: 16px;
+        @media screen and (max-width:880px){
+            margin-top: 100px;
+            margin-left: 0;
+            font-size: 25px; 
+        }
     }
     .list-cardapio{
         margin-left: 31px;
         margin-bottom: 32px;
+        @media screen and (max-width:880px){
+            margin-left: 0;
+        }
+        
         .titulo-cardapio{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 500px;
+            width: 100%;
             white-space: nowrap;
+            
             h1{
                 
                 font-family: Lilita One;
@@ -116,6 +162,9 @@
         > p{
             width: 480px;
             font-size: 16px;
+            @media screen and (max-width:880px){
+                font-size: 14px;
+            }
             color: rgba(255, 255, 255, 0.9);
             margin-top: 4px;
             margin-left: 0;

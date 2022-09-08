@@ -8,8 +8,8 @@ const day = data.getDay();
 export const Promocao = ()=>{
     const [estado, setEstado] = useState('')
     const data = new Date;
-    const hours: any = data.getHours();
-    const day = data.getDay();
+    const hours: number = data.getHours();
+    const day: number = data.getDay();
 
     useEffect(()=>{
         if (day == 0 || day == 6){

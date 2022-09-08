@@ -2,14 +2,14 @@
     width: 100%;
     height: 85vh;
     max-height: 820px;
-    background-image: url(public/banner-burger.png);
+    background-image: url(/banner-burger.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding-left: 3%;
 
     @media screen and (max-width:880px){
-        background-image: url(public/banner-mobile.png);
+        background-image: url(/banner-mobile.png);
         background-size: cover;
         height: 100vh;  
     }
@@ -70,7 +70,7 @@
         }
 
         button{
-            width: 151.64px;
+            width: 200px;
             height: 43.32px;
             background-color: rgba(244, 49, 39, 1);
             font-weight: 700;
@@ -81,6 +81,7 @@
             margin-top: 8px;
             @media screen and (max-width:880px){
                 font-size: 16px;
+                width: 151.64px;
             }
         }
     }

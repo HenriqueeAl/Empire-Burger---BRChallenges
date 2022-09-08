@@ -2,6 +2,8 @@
     margin-top: 128px;
     
     
+    
+    
     h1{
         font-size: 32px;
         font-family: 'Lilita One';
@@ -12,21 +14,42 @@
         color: rgba(29, 6, 5, 0.69);
     }
 
+    .aling-gradient{
+        width: 110%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        @media screen and (max-width:1460px){
+            width: 104%;            
+        }
+        @media screen and (max-width:1315px){
+            width: 100%;            
+        }
+        @media screen and (max-width:1200px){
+            display: none;          
+        }
+    }
+
     .gradiente{
         width: 120px;
         height: 189px;
-        position: relative;
-        left: 1200px;
+        position: absolute;
         background: linear-gradient(271.8deg, #FAF3F2 70.26%, rgba(250, 243, 242, 0) 105.97%);
-        margin-top: -189px;
+        margin-top: -182px;
+        
+        
+        
     }
 
     .row{
         flex-wrap: nowrap;
         overflow: hidden;
-        
         width: 110%;
         padding-right: 9.5%;
+        @media screen and (max-width:1460px){
+            width: 100%;            
+        }
+
         
         .box{
             min-width: 30%;
@@ -37,7 +60,25 @@
             padding: 12px;
             margin-top: 16px;
             margin-right: 12px;
-            opacity: 0.7;      
+            opacity: 0.7;    
+            
+            @media screen and (max-width:1460px){
+                min-width: 32%;         
+            }
+
+            @media screen and (max-width:1200px){
+                min-width: 40%;         
+            }
+            @media screen and (max-width:1000px){
+                min-width: 50%;         
+            }
+            @media screen and (max-width: 785px){
+                min-width: 75%;         
+            }
+            @media screen and (max-width: 500px){
+                min-width: 90%;         
+            }
+            
     
             p{
                 display: -webkit-box;

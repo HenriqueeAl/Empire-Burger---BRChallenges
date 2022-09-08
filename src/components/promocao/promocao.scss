@@ -1,8 +1,13 @@
 .promocao{
-    
     margin-top: 20px;
     .container{
         padding-top: 50px;
+        @media screen and (max-width:1280px){
+            width: 770px;
+        }
+        @media screen and (max-width:1280px){
+            align-items: flex-start;
+        }
         h1{
             color: rgba(29, 6, 5, 0.9);
             font-family: 'Lilita One';
@@ -19,12 +24,35 @@
             display: grid;
             grid-template-columns: 770px 30px 371px;
             grid-template-rows: 200px 30px 200px;
+            width: 100%;
+            @media screen and (max-width:1280px){
+                grid-template-columns: 371px 28px 371px;
+                grid-template-rows: 425px 25px 205px;
+            }
+            @media screen and (max-width:880px){
+                
+                grid-template-rows: 220px 5px 210px 5px 210px;
+                max-width: 380px;
+                margin: auto;
+                margin-top: 30px;
+                
+                
+            }
             .oferta-burger{
-                width: 770px;
-                height: 430px;
-                background-image: url(public/oferta-burger.svg);
+                
+                background-image: url(/oferta-burger.svg);
                 background-repeat: no-repeat;
                 grid-column-start: 1;
+                grid-row-start: 1;
+                grid-row-end: 4;
+                @media screen and (max-width:1280px){
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                }
+                @media screen and (max-width:880px){
+                    background-image: url(/oferta-burger-mobile.png);
+                    
+                }
                 h1{
                     font-size: 25px;
                     font-family: 'Lilita One';
@@ -55,13 +83,22 @@
                 }
             }
             .oferta-batata{
-                width: 370.96px;
-                height: 200px;
-                background-image: url(public/oferta-batata.svg);
+                background-image: url(/oferta-batata.svg);
                 background-repeat: no-repeat;
-                margin-bottom: 30px;
                 grid-column-start: 3;
                 grid-row-start: 1;
+                grid-row-end: 2;
+                @media screen and (max-width:1280px){
+                    grid-column-start: 1;
+                    grid-row-start: 3;
+                    grid-row-end: 4;
+                }
+                @media screen and (max-width:880px){
+                    background-image: url(/oferta-batata-mobile.png);
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                }
+                
 
                 h1{
                     font-size: 20px;
@@ -78,12 +115,23 @@
                 }
             }
             .oferta-sorvete{
-                width: 370.96px;
-                height: 200px;
-                background-image: url(public/oferta-sorvete.svg);
+                background-image: url(/oferta-sorvete.svg);
                 background-repeat: no-repeat;
                 grid-column-start: 3;
                 grid-row-start: 3;
+                grid-row-end: 4;
+                @media screen and (max-width:1280px){
+                    grid-column-start: 3;
+                    grid-row-start: 3;
+                    grid-row-end: 4;
+                }
+                @media screen and (max-width:880px){
+                    background-image: url(/oferta-sorvete-mobile.png);
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                    grid-row-start: 5;
+                    grid-row-end: 6;
+                }
 
                 h1{
                     font-size: 20px;
@@ -104,6 +152,23 @@
         .row{
             height: 130.93px;
             margin-top: 64px;
+
+            @media screen and (max-width:1280px){
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                min-width: 380px;
+                margin: auto;
+                margin-top: 40px;
+            }
+            @media screen and (max-width:880px){
+                width: 100%;
+                margin: auto;
+                margin-top: 20px;
+                
+            }
+
             .fechado{
                 background-color: #F43127;
             }
@@ -116,6 +181,10 @@
                 border-radius: 10px;
                 display: flex;
                 align-items: center;
+                @media screen and (max-width:880px){
+                   width: 380px;
+                   
+                }
     
                 .icon{
                     width: 94.83px;
@@ -126,6 +195,14 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    @media screen and (max-width:880px){
+                        width: 65px;
+                        height: 65px;
+                        margin-left: 10px;
+                    }
+                    img{
+                        width: 60%;
+                    }
                 }
     
                 .text{
@@ -140,10 +217,16 @@
                         margin-left: 15px;
                         line-height: 35px;
                         display: flex;
+                        @media screen and (max-width:880px){
+                            font-size: 18px;
+                        }
                         strong{
                             font-family: 'Lilita One';
                             font-size: 12px;
                             margin-left: 5px;
+                            @media screen and (max-width:880px){
+                                display: none;
+                            }
                         }
                     }
                     p{
@@ -152,6 +235,9 @@
                         color: rgba(255, 255, 255, 0.85);
                         margin-left: 15px;
                         line-height: 20px;
+                        @media screen and (max-width:880px){
+                            font-size: 14px;
+                        }
                     }
                 }
     
@@ -161,6 +247,11 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+
+                @media screen and (max-width:1280px){
+                    margin-top: 20px;
+                    margin-left: 0;
+                }
 
                 p{
                     font-weight: 400;

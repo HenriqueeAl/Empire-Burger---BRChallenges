@@ -29,38 +29,40 @@ export const Comentarios = ()=>{
         Getcomentarios()
     }, [])
 
-    const carousel = document.getElementById('carousel');
+    const documet: any = 'aa'
+    const carousel: any = document.getElementById('carousel');
 
     return(
         <section className='comentarios container' id='comentarios'>
             <h1>Nossa realeza</h1>
             <p>A satisfação de nossos clientes em primeiro lugar!</p>
             <div className='row' id='carousel'>
-                {comments.map((e)=> <Testimonials name={e.name} age={e.age} img={e.image} testimonial={e.testimonial}/>)}
-                
+                {comments.map((e: any)=> <Testimonials name={e.name} age={e.age} img={e.image} testimonial={e.testimonial}/>)}
             </div>
-            <div className='gradiente' id='gradiente'></div>
+            <div className='aling-gradient'>
+                <div className='gradiente' id='gradiente'></div>
+            </div>
             <div className='carousel'>
                     <div className='bar select' id='1' onClick={()=>{
                         carousel.scrollTo(0,0)
-                        document.querySelector('.select').classList.remove('select')
-                        document.getElementById('1').classList.add('select')
+                        document.querySelector('.select')?.classList.remove('select')
+                        document.getElementById('1')?.classList.add('select')
                         }}></div>
                     <div className='bar' id='2' onClick={()=>{
                         carousel.scrollTo(1120,0)
-                        document.querySelector('.select').classList.remove('select')
-                        document.getElementById('2').classList.add('select')
+                        document.querySelector('.select')?.classList.remove('select')
+                        document.getElementById('2')?.classList.add('select')
                         }
                         }></div>
                     <div className='bar' id='3' onClick={()=>{
                         carousel.scrollTo(2240,0)
-                        document.querySelector('.select').classList.remove('select')
-                        document.getElementById('3').classList.add('select')
+                        document.querySelector('.select')?.classList.remove('select')
+                        document.getElementById('3')?.classList.add('select')
                     }}></div>
                     <div className='bar' id='4' onClick={()=>{
                         carousel.scrollTo(3600,0)
-                        document.querySelector('.select').classList.remove('select')
-                        document.getElementById('4').classList.add('select')
+                        document.querySelector('.select')?.classList.remove('select')
+                        document.getElementById('4')?.classList.add('select')
                         }}></div>
             </div>
         </section>
