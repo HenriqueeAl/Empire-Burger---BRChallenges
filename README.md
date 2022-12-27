@@ -14,5 +14,5 @@ Um desafio da plataforma [brchallenges](https://www.brchallenges.com) desenvolvi
 [![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
 
 ## Links
-[Site do projeto](https://empire-burger-brchallenges.vercel.app/) <br />
+[Acessar projeto](https://empire-burger-brchallenges.vercel.app/) <br />
 [Figma do pejeto](https://www.figma.com/file/ag4Az50adOF53pBrwI0wFg?node-id=0:1) <br />
